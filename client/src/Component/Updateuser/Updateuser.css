@@ -1,0 +1,48 @@
+body {
+    background-image: url(https://img.freepik.com/free-photo/white-business-background-with-laptop-eucalyptus-branches-top-view_169016-35345.jpgcd);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.adduser {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.adduser h3 {
+    margin-bottom: 20px;
+}
+
+.adduser .inputgroup {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.adduser .inputgroup label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.adduser .inputgroup input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.adduser .inputgroup button {
+    padding: 10px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.adduser .inputgroup button:hover {
+    background-color: #218838;
+}

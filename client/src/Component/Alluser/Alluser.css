@@ -1,0 +1,27 @@
+.usertable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.table-container {
+    border: 2px solid #2313a3;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+
+}
+
+th,
+td {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #7dc597;
+}
